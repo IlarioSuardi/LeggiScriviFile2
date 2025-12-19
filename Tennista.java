@@ -13,6 +13,10 @@ class Tennista {
         this.titoli = titoli;
     }
 
+    public int getTitoli() {
+        return titoli;
+    }
+
     public String toCSV() {
         return nome + "," + cognome + "," + nazione + "," + rankingATP + "," + titoli;
     }
